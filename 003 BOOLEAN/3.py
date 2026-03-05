@@ -1,7 +1,4 @@
-# boolean ile stringleri birlesdirmek isdediqde xeta verir
-# birlesdirmeq ucun ise sadece str() funksiyasinnan isdifade etmek lazimdi
+# Əğər dırnaqcıq içinde yazsaq type string olacaq 
 
-qutu = True
-print ( "Sen insansanmi: " + str( qutu ) )
-
-
+qutu = "False"
+print( type ( qutu ) )
