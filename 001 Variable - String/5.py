@@ -6,3 +6,13 @@ Soyad = "Kerimov"
 tamAd = ad + ' ' + Soyad
 
 print( tamAd )
+
+# Üçüncü Variable çağırmadan "ad" variablenin üstüne yazmaq olar 
+
+ad = "İbrahim"
+Soyad = "Kerimov"
+
+ad = ad + ' ' + Soyad
+
+print( ad )
+
