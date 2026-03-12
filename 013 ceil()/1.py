@@ -1,5 +1,5 @@
-# math metodudun, funksiyasıdır.
-# ceil() - daxil edilen onluq (kəsr) ədədi bir üst tam ədədə yuvarlaqlaştırır
+# ceil() - math modulunun funksiyasıdır.
+# Daxil edilən onluq (kəsr) ədədi bir üst tam ədədə yuvarlaqlaşdırır.
 
 import math 
 eded = 5.1

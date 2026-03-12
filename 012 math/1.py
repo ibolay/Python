@@ -1,11 +1,10 @@
-# Python da riyazi emeliyyatlar üçün xüsusi metodlar vardır
+# Python-da riyazi əməliyyatlar üçün xüsusi modullar vardır.
 
-# onlardan biri math metodudur.
+# Onlardan biri math moduludur.
 
-# math metodunu işletmek üçün import ( daxil ) etmək lazımdır 
+# math modulunu istifadə etmək üçün onu import (daxil) etmək lazımdır.
 
-# əğər import etməsək onda terminalda müəyyən edilməmiş diyə xəta mesajı çıxacaq.
- 
+# Əgər import etməsək, terminalda "müəyyən edilməmişdir" (not defined) xəta mesajı çıxacaq.
 
 import math
 pi = 3.14

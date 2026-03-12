@@ -1,5 +1,5 @@
-# math metodudun, funksiyasıdır.
-# floor() - daxil edilen onluq (kəsr) ədədi bir alt tam ədədə yuvarlaqlaştırır
+# floor() - math modulunun funksiyasıdır.
+# Daxil edilən onluq (kəsr) ədədi bir alt tam ədədə yuvarlaqlaşdırır.
 
 import math 
 eded = 5.9
