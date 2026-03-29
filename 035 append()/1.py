@@ -1,10 +1,21 @@
-# append() = bu metod listin sonuna deyer elave etmek uçun istifade edilir.
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃                                                            ┃
+# ┃  append() = bu metod listin sonuna deyer                   ┃
+# ┃  elave etmek uçun istifade edilir.                         ┃
+# ┃                                                            ┃
+# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
-meyve = [ "qarpiz", "yemis", "alma", "nar" ]
 
-meyve.append("armud")
+meyve = [ "alma", "armud", "nar", "heyva"]
 
-for yemekler in meyve:
-    print(yemekler)
+meyve.append("qarpiz")
 
-    
+for deyer in meyve:
+    print(deyer)
+
+# Output:
+# ──> alma
+# ──> armud
+# ──> nar
+# ──> heyva
+# ──> qarpiz
