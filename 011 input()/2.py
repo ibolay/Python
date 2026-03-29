@@ -1,2 +1,9 @@
-# input içerisinde sadəcə rəgəm yazılmalıdırsa if ilə onu edə bilərik
-# if in nece istifade edilmeli olduğu sonraki folderde izah edilib..
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃                                                            ┃
+# ┃  input() içində sadəcə rəqəm yazılmalıdırsa,               ┃
+# ┃  bunu if ilə yoxlaya bilərik.                              ┃
+# ┃                                                            ┃
+# ┃  Qeyd: if in necə istifadə edilməli olduğu if-elif         ┃    
+# ┃  "folderin`də" izah edilib.                                ┃
+# ┃                                                            ┃
+# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
