@@ -1,14 +1,32 @@
-# Bir variable yaratdıq və ona Numeric tipli data verdik
-# ikinci defe yazaraq onu tekrar çağırdıq ve 
-# deyişkenin içinde 21 var idi biz onu 1 ile toplayıb 
-# neticeni age deyişkenine geri verdik
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃                                                            ┃
+# ┃  Bir variable yaratdıq və ona numeric tipli data verdik.   ┃
+# ┃  Sonra onu yenidən çağırdıq və içindəki dəyəri dəyişdik.   ┃
+# ┃                                                            ┃
+# ┃  Misal: age dəyişəni 21 idi, biz ona 1 əlavə etdik         ┃
+# ┃  və nəticəni yenidən age-ə verdik.                         ┃
+# ┃                                                            ┃
+# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
 
 age = 21
 age = age + 1
-print ( age )
+print(age)
 
-# yuxarida olani daha qisa formada yazmaq ucun : Qısaltma Operatorundan istifade edeceyik.
+
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃                                                            ┃
+# ┃  Yuxarıdakı əməliyyatı daha qısa formada yazmaq üçün:      ┃
+# ┃  Qısaltma operatorlarından istifadə edirik.                ┃
+# ┃                                                            ┃
+# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
 
 say = 33
 say += 4
-print ( say )
+print(say)
+
+
+# Output:
+# ──> 22
+# ──> 37
