@@ -1,18 +1,35 @@
-# 3 cü variable yazaraq 1-ci ve 2-ci variable - lerin deyerlerini 3-cü ye vermek olur
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃                                                            ┃
+# ┃  3-cü variable yazaraq 1-ci və 2-ci variable-lərin         ┃
+# ┃  dəyərlərini 3-cü variable-ə vermək olur.                  ┃
+# ┃                                                            ┃
+# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
 
 ad = "İbrahim"
 Soyad = "Kerimov"
 
 tamAd = ad + ' ' + Soyad
 
-print( tamAd )
+print(tamAd)
 
-# Üçüncü Variable çağırmadan "ad" variablenin üstüne yazmaq olar 
+
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃                                                            ┃
+# ┃  Üçüncü variable çağırmadan "ad" variable-nin              ┃
+# ┃  üzərinə yazmaq da olar.                                   ┃
+# ┃                                                            ┃
+# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
 
 ad = "İbrahim"
 Soyad = "Kerimov"
 
 ad = ad + ' ' + Soyad
 
-print( ad )
+print(ad)
 
+
+# Output:
+# ──> İbrahim Kerimov
+# ──> İbrahim Kerimov
