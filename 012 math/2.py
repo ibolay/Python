@@ -1,7 +1,17 @@
-# import etdikden sonra math dan sonra nogte qoysaq 
-# math ile istifade ede bileceyimiz metod adlarını göreceyig.
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃                                                            ┃
+# ┃  Import etdikdən sonra math modulundan sonra nöqtə (.)     ┃
+# ┃  qoysaq, math ilə istifadə edə biləcəyimiz metodların      ┃
+# ┃  siyahısını görə biləcəyik.                                ┃
+# ┃                                                            ┃
+# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
 
 import math
 pi = 3.14
 
-print( math.ceil(pi) )
+print(math.ceil(pi))
+
+
+# Output:
+# ──> 4
