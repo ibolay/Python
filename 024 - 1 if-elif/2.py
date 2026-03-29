@@ -1,11 +1,15 @@
-# gördük ki "if" False olarsa netice çıxmır bunun üçün else yazırıq
-# aşağıda göründüyü kimi if işlemediyi üçün else işledi:
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃                                                            ┃
+# ┃  else - if False olarsa işə düşür                          ┃
+# ┃                                                            ┃
+# ┃  - if doğru deyilsə else-də yazılan kod icra olunur        ┃
+# ┃                                                            ┃
+# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
 
 x = 20
 
 if x > 50:
-   print("Sen yaşlanibsan")
-
+    print("Sen yaşlanibsan")
 else:
-   print("Sen hele 'baby' sen")   # ekranda göreceyimiz netice.
-
+    print("Sen hele 'baby' sen")   # ekranda görünəcək netice

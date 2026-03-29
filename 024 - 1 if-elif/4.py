@@ -1,7 +1,13 @@
-# 011 dersdinde input haqqında yazmıştıq ama tam izah etmedik 
-# input() ilə istifadəçidən dəyər alıb, if şərti ilə yoxlayaraq nəticəni ekrana çap edə bilərik.
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃                                                            ┃
+# ┃  input() + if - İstifadəçidən dəyər almaq və yoxlamaq      ┃
+# ┃                                                            ┃
+# ┃  - input() ilə istifadəçidən məlumat alınır                ┃
+# ┃  - int(input()) → daxil edilən mətni ədədə çevirir         ┃
+# ┃  - if şərti ilə yoxlayıb nəticəni çap etmək olar           ┃
+# ┃                                                            ┃
+# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
-# int(input()) istifadəçidən daxil edilən mətni ədədə çevirərək proqramda istifadə etməyə imkan verir.
 
 eded = int(input("Ədəd daxil et: "))
 
