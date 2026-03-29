@@ -1,12 +1,14 @@
-# 5 - Membership Operators 
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃                                                            ┃
+# ┃  6 - Membership Operators                                  ┃
+# ┃                                                            ┃
+# ┃  a) in     → Əgər axtarılan dəyər varsa True qaytarır      ┃
+# ┃  b) not in → Əgər axtarılan dəyər yoxdursa True qaytarır   ┃
+# ┃                                                            ┃
+# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 
-# Membership Operators
-   # a)   in        - Əğər axtarılan deyer varsa, "True" qaytarır.
-   # b)   not in    - Əğər axtarılan deyer yoxdursa, "False" qayıdır.
+x = ["apple", "banana"]
 
-x = [ "apple" , "banana" ]
-
-print( "apple" not in x   )     # False qayıdır Çünkü "aplle" deyeri "x" in içində var.
-print( "banana" in x      )     # True qayıdır Çünkü "banana" "x" in içində var.
-
+print("apple" not in x)   # False qayıdır, çünki "apple" x-in içində var
+print("banana" in x)      # True qayıdır, çünki "banana" x-in içində var

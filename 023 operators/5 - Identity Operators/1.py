@@ -1,14 +1,17 @@
-# 5 - Identity Operators 
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃                                                            ┃
+# ┃  5 - Identity Operators                                    ┃
+# ┃                                                            ┃
+# ┃  a) is     → Hər iki variable eyni olarsa True qaytarır    ┃
+# ┃  b) is not → Hər iki variable eyni deyilsə True qaytarır   ┃
+# ┃                                                            ┃
+# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 
-# Identity Operators
-   # a)   is        - Her iki variable doğrudursa, "True" qayıdır.
-   # b)   is not    - Her iki variable doğru deyilsə, "False" qayıdır.
-
-x = [ "apple" , "banana" ]
-y = [ "apple" , "banana" ]
+x = ["apple", "banana"]
+y = ["apple", "banana"]
 
 z = x
 
-print( x is z     )     # True qayıdır Çünkü x ilə z eynidir
-print( x is not z )     # False qayıdır Çünkü x ilə z eynidir
+print(x is z)      # True qayıdır, çünki x ilə z eynidir
+print(x is not z)  # False qayıdır, çünki x ilə z eynidir
