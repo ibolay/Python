@@ -1,7 +1,11 @@
-# [] kvadrat möterizenin evveline : qoysaq 0 dan 
-# yazdığımız regeme gederki simvolları elde edirik
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃                                                            ┃
+# ┃  [] kvadrat mötərizənin əvvəlinə : qoysaq, 0-dan yazdığımız┃
+# ┃  rəqəmə qədər olan simvolları əldə edirik.                 ┃
+# ┃                                                            ┃
+# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
 
 cumle = "Kitab oxumaq ən faydali məşğuliyyətlərdən biridir."
 
-print( cumle [ :8 ] )   # Kitab ox
-
+print(cumle[:8])   # Kitab ox
