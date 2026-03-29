@@ -1,24 +1,16 @@
 # ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 # ┃                                                            ┃
-# ┃  Variable - lara 1 den çox deyer vermek üçün []            ┃
-# ┃  mötərizədən istifadə olunur.                              ┃
-# ┃  bele olduqda deyerin tipi "list" olur.                    ┃
+# ┃  List içindəki bir dəyəri başqa bir dəyər ilə əvəz etmək   ┃
+# ┃  üçün əvvəl həmin dəyəri çağırırıq, sonra isə yeni dəyər   ┃
+# ┃  təyin edirik.                                             ┃
 # ┃                                                            ┃
 # ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 
 meyve = [ "alma", "armud", "nar", "heyva"]
+meyve[0] = "qarpiz" 
 
-print(meyve[0])
-print(meyve[1])
-print(meyve[2])
-print(meyve[3])
-
-print( type( meyve ) )
+print( meyve[ 0 ] )       
 
 # Output:
-# ──> alma
-# ──> armud
-# ──> nar
-# ──> heyva
-# ──> <class 'list'>
+# ──> qarpiz

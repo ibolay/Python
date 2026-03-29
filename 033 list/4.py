@@ -1,24 +1,17 @@
 # ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 # ┃                                                            ┃
-# ┃  Variable - lara 1 den çox deyer vermek üçün []            ┃
-# ┃  mötərizədən istifadə olunur.                              ┃
-# ┃  bele olduqda deyerin tipi "list" olur.                    ┃
+# ┃  Tek setrlik kod yazaraq deyerleri ekrana yazdırma :       ┃
+# ┃  Bu qayda ilə kodu dahada qısalda bilərik.                 ┃        
 # ┃                                                            ┃
 # ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 
-meyve = [ "alma", "armud", "nar", "heyva"]
+meyve = ["alma", "armud", "nar", "heyva"]
 
-print(meyve[0])
-print(meyve[1])
-print(meyve[2])
-print(meyve[3])
-
-print( type( meyve ) )
+[  print( deyer )    for deyer in meyve ]
 
 # Output:
 # ──> alma
 # ──> armud
 # ──> nar
 # ──> heyva
-# ──> <class 'list'>
