@@ -1,4 +1,10 @@
-# Heç bir şey daxil etməsək, dövr davam edir; dəyər daxil etdikdə dayandırılır
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃                                                            ┃
+# ┃  Heç bir şey daxil etməsək, dövr davam edir                ┃
+# ┃  Dəyər daxil etdikdə dayandırılır                          ┃
+# ┃                                                            ┃
+# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
 
 ad = ""
 
