@@ -1,7 +1,15 @@
-# ədədi qüvvete yükseltmek üçün " x ** y " istifadə etmek mümkündür
-# birde ededi qüvvete yükseltmek üçün "pow()" funksiyasından istifadə edilir.
-# 2 parametr gebul edir: 1 - ededi, 2 - hemin ededin üst derecesi
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃                                                            ┃
+# ┃  Ədədi qüvvətə yüksəltmək üçün iki üsul var:               ┃
+# ┃                                                            ┃
+# ┃  1 - "x ** y" operatoru                                    ┃
+# ┃  2 - pow() funksiyası                                      ┃
+# ┃                                                            ┃
+# ┃  pow() funksiyası 2 parametr qəbul edir:                   ┃
+# ┃    1 - ədəd, 2 - həmin ədədin üst dərəcəsi                 ┃
+# ┃                                                            ┃
+# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 
 eded = 2
-print( pow(eded , 5) )    # 2 * 2 * 2 * 2 * 2 = 32
+print(pow(eded, 5))    # 2 * 2 * 2 * 2 * 2 = 32
