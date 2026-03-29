@@ -1,10 +1,21 @@
-# Bu multiple assignment sayılır bir beraberlik operatorundan istifade
-# edib birden çox deyer elde ede bilirik
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃                                                            ┃
+# ┃  Bu multiple assignment sayılır.                           ┃
+# ┃  Bir bərabərlik operatorundan (=) istifadə edərək          ┃
+# ┃  bir neçə dəyəri eyni anda bir neçə variable-ə verə        ┃
+# ┃  bilərik.                                                  ┃
+# ┃                                                            ┃
+# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 
 ad, soyad, yas = "Ibrahim", "Kerimov", 17
 
-print ( ad )
-print ( soyad )
-print ( yas )
+print(ad)
+print(soyad)
+print(yas)
 
+
+# Output:
+# ──> Ibrahim
+# ──> Kerimov
+# ──> 17
