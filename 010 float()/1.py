@@ -1,4 +1,9 @@
-# bu metod elementleri kesr edede cevirir
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃                                                            ┃
+# ┃  Bu metod elementləri kəsr ədədə (float) çevirir.          ┃
+# ┃                                                            ┃
+# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
 
 x = 1
 y = 2.4
@@ -8,6 +13,12 @@ x = float(x)
 y = float(y)
 z = float(z)
 
-print (  x*5  )
-print (  y*5  )
-print (  z*5  )  
+print(x*5)
+print(y*5)
+print(z*5)
+
+
+# Output:
+# ──> 5.0
+# ──> 12.0
+# ──> 15.0
