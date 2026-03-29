@@ -1,7 +1,10 @@
-# String içerisinde olan simvollarıda for in vasitəsi ilə əldə eliye bilerik
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃                                                            ┃
+# ┃  String içərisində olan simvolları                         ┃
+# ┃  for in vasitəsilə əldə etmək mümkündür.                   ┃
+# ┃                                                            ┃
+# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 
 for i in "Limitli Dongu":
-    print(  i  )
-
-    
+    print(i)

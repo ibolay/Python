@@ -1,4 +1,10 @@
-# Üçüncü parametr ise Step di, değerleri iki iki artırmaq.
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃                                                            ┃
+# ┃  Üçüncü parametr isə Step-dir,                             ┃
+# ┃  dəyərləri iki-iki artırmaq üçün istifadə olunur.          ┃
+# ┃                                                            ┃
+# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
-for i in range( 20, 60 + 1, 2):
-    print(  i  )
+
+for i in range(20, 60 + 1, 2):
+    print(i)

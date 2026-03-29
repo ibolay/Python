@@ -1,14 +1,18 @@
-# Əğər 10 a geder yazdırmaq isdesek
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃                                                            ┃
+# ┃ Əgər 10-a qədər yazdırmaq istəsək:                         ┃
+# ┃                                                            ┃
+# ┃  1 - print(i + 1)                                          ┃
+# ┃  2 - range(10 + 1)                                         ┃
+# ┃                                                            ┃
+# ┃ Hər iki metod 10-a qədər yazdırır.                         ┃
+# ┃                                                            ┃
+# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
-# 1 - print( i + 1 )
-# 2 - range( 10 + 1)
 
 for i in range(10 + 1):
-    print(  i  ) 
+    print(i) 
 
 
 for i in range(10):
-    print( i + 1)
-
-
-# İkiside 10 a geder yazdırır.
+    print(i + 1)
