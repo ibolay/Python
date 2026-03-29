@@ -1,4 +1,9 @@
-# bu metod elementleri tam edede cevirir
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃                                                            ┃
+# ┃  Bu metod elementləri tam ədədə çevirir (int).             ┃
+# ┃                                                            ┃
+# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
 
 x = 1
 y = 2.4
@@ -8,7 +13,12 @@ x = int(x)
 y = int(y)
 z = int(z)
 
-print (  x*5  )
-print (  y*5  )
-print (  z*5  )  
+print(x*5)
+print(y*5)
+print(z*5)
 
+
+# Output:
+# ──> 5
+# ──> 10
+# ──> 15
