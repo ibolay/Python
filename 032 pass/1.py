@@ -1,22 +1,22 @@
-# Break və continue arasındaki fərq odurki :
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃                                                            ┃
+# ┃  Break və Continue arasındakı fərq:                        ┃
+# ┃                                                            ┃
+# ┃  Break - döngünü tamamilə sonlandırır                      ┃
+# ┃  Continue - həmin döngünü atlayıb növbətiyə keçir          ┃
+# ┃                                                            ┃
+# ┃  Həm break həm də continue nümunəsi:                       ┃
+# ┃                                                            ┃
+# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
-# Break - ifadəsi döngüyü tamamilə sonlandırır.
-# Continue - ifadəsi isə o döngünü sonlandırıb diğərinə atlamasıdır.
-# Həm break həmdəki continue nin istifadəsi
-
-for i in range( 1 , 10 ):
+for i in range(1, 10):
     if i % 2 == 0:
         continue
     if i > 5:
         break
-    print("Islenen sayi: ", i )
+    print("İşlənən sayi:", i)
 
-
-"""
-
-İşlenen sayi: 1
-İşlenen sayi: 3
-İşlenen sayi: 5
-
-"""
-
+# Output:
+# ──> İşlənən sayi: 1
+# ──> İşlənən sayi: 3
+# ──> İşlənən sayi: 5
