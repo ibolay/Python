@@ -1,13 +1,18 @@
-# Öncəliklə inputa eded daxil edirik, daxil edilen ededi çeviririk int tipini
-# Çünkü İnputa daxil edilen eded String kimi sayılır biz onu int e çeviririk
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃                                                            ┃
+# ┃  Öncəliklə inputa ədəd daxil edirik,                       ┃
+# ┃  daxil edilən ədədi int tipinə çeviririk.                  ┃
+# ┃  Çünki inputa daxil edilən ədəd String kimi sayılır.       ┃
+# ┃                                                            ┃
+# ┃  Vurma Cədvəli                                             ┃
+# ┃                                                            ┃
+# ┃  "" içində olanlar arifmetik operator deyil,               ┃
+# ┃  sadəcə ekrana çap üçün istifadə olunur.                   ┃
+# ┃                                                            ┃
+# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
-# Vurma Cedveli
 
+eded = int(input("Bir ədəd daxil edin: "))
 
-eded = int( input("Bir Eded Daxil Edin: ") )
-
-for i in range(1, 9+1):
-    print( eded, "*" , i , "=" , eded * i )
-
-
-# "" - içinde olanlar arifmetik operator değil.
+for i in range(1, 9 + 1):
+    print(eded, "*", i, "=", eded * i)
