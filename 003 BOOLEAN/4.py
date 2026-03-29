@@ -1,7 +1,18 @@
-# boolean ile stringleri birlesdirmek isdediqde xeta verir
-# birlesdirmeq ucun ise sadece str() funksiyasinnan isdifade etmek lazimdi
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃                                                            ┃
+# ┃  Boolean ilə string-ləri birləşdirmək birbaşa mümkün       ┃
+# ┃  deyil, əks halda xəta verəcək.                            ┃
+# ┃                                                            ┃
+# ┃  Birləşdirmək üçün str() funksiyasından istifadə etmək     ┃
+# ┃  lazımdır.                                                 ┃
+# ┃                                                            ┃
+# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
 
 qutu = True
-print ( "Sen insansanmi: " + str( qutu ) )
+
+print("Sen insansanmi: " + str(qutu))
 
 
+# Output:
+# ──> Sen insansanmi: True
