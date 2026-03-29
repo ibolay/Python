@@ -1,6 +1,13 @@
-# hecne yazmayanda umumi sayi verir
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃                                                            ┃
+# ┃  Heç nə yazmayanda count("") metodu ümumi sayını verir.    ┃
+# ┃                                                            ┃
+# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
 
 nomre = '+994 77 510 33 27'
-print ( nomre.count("") )
+print(nomre.count(""))
 
 
+# Output:
+# ──> 17

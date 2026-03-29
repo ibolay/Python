@@ -1,7 +1,17 @@
-# count() - metodu belli bir deyerin list, tuple veya string içerisinde
-# neçe defe tekrarlandığını sayır
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃                                                            ┃
+# ┃  count() metodu - müəyyən bir dəyərin list, tuple və ya    ┃
+# ┃  string içində neçə dəfə təkrarlandığını sayır.            ┃
+# ┃                                                            ┃
+# ┃  Qeyd: Əgər heç nə yoxdursa 1 qaytarır. Bu o deməkdir ki   ┃
+# ┃  boşluq simvolu var.                                       ┃
+# ┃                                                            ┃
+# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
-# əğər heçne yoxdursa 1 qaytarır bu o demektirki boşluq simvolu var
 
 ad = ""
-print( ad.count("") )
+print(ad.count(""))
+
+
+# Output:
+# ──> 1

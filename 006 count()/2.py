@@ -1,10 +1,19 @@
-# Əğər dırnaqcıq içine ister NUMBER ister STRİNG bir simvol yazsaq 
-# neticec olaraq 2 qaytarır.
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃                                                            ┃
+# ┃  Əgər dırnaq içinə istər NUMBER istər STRING bir simvol    ┃
+# ┃  yazsaq, nəticədə count("") metodu 2 qaytarır.             ┃
+# ┃                                                            ┃
+# ┃  İzah:                                                     ┃
+# ┃  - İlk öncə bir boşluq yaradılır                           ┃
+# ┃  - Sonra o boşluğa simvol əlavə edilir                     ┃
+# ┃  Nəticə olaraq həmişə bir say artıq əldə edirik.           ┃
+# ┃                                                            ┃
+# ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
-# Çünkü
-
-# ilk öncə bir boşluq yaradılır ve sonra o boşluqa simvol elave edilir
-# Nəticə olaraq hemişe bir say artıq elde edirik.
 
 ad = "1"
-print( ad.count("") )
+print(ad.count(""))
+
+
+# Output:
+# ──> 2
